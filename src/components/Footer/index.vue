@@ -15,12 +15,8 @@
         </a></span
       >&nbsp;&amp;
       <!-- 站点备案 -->
-      <a href="http://beian.miit.gov.cn/" ;="" target="_blank"
-        ><img
-          src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png"
-          width="20px"
-          height="20px"
-        />桂ICP备2021003681号</a
+      <a href="https://beian.miit.gov.cn" target="_blank"
+        >豫ICP备2022018134号-1</a
       >
     </div>
     <div class="lrc" v-show="store.playerState">
