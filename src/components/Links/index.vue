@@ -37,7 +37,7 @@ import {
   Cloud,
   Compass,
   Book,
-  Pulse,
+  Heartbeat,
 } from "@vicons/fa";
 
 // 网站链接数据
@@ -69,8 +69,8 @@ let linksData = [
     link: "https://velor2012.super.site/",
   },
   {
-    icon: Pulse,
-    name: "实验室",
+    icon: Heartbeat,
+    name: "服务器监控",
     link: "https://watch.zeabur.app/",
   },
 ];
