@@ -141,7 +141,7 @@ main {
       padding: 0 2vw;
     }
     @media screen and (max-width:600px){
-        height: auto;
+        height: 80vh;
     }
     .main {
       width: 100%;
