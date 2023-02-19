@@ -189,6 +189,9 @@ main {
     @media (min-width: 720px) {
       display: none;
     }
+    @media (max-width: 1200px) {
+        top: auto;
+      }
   }
 }
 
