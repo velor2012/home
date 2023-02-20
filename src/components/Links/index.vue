@@ -70,7 +70,7 @@
     {
       icon: Heartbeat,
       name: "服务器监控",
-      link: "https://watch.zeabur.app/",
+      link: "https://velor2012.gitee.io/watch",
     },
   ];
   // 链接跳转
