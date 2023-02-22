@@ -50,7 +50,7 @@
     {
       icon: Cloud,
       name: "网盘",
-      link: "https://drive.cwy666.eu.org/",
+      link: "https://drive.velor2012.eu.org/",
     },
     {
       icon: CompactDisc,
