@@ -3,10 +3,12 @@
       <div class="power" v-show="!store.playerState">
         <span
           >Copyright&nbsp;&copy;&nbsp;{{ fullYear }}
-          <a href="https://cwy666.com">DDD</a>
+          <a href="https://cwy666.com">by DDD</a>
         </span>
+        |
+        &nbsp;&amp;
         <!-- 站点备案 -->
-        <a href="http://beian.miit.gov.cn/" target="_blank"><img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" width="20" height="20">桂ICP备2021003681号</a>
+        <a href="http://beian.miit.gov.cn/" target="_blank"><img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" style="width: 20px; height: 20px">桂ICP备2021003681号</a>
       </div>
       <div class="lrc" v-show="store.playerState">
         <music-one theme="filled" size="18" fill="#efefef" />
