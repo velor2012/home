@@ -18,6 +18,11 @@
             {{ config.author }}
           </a>
         </span>
+        <!-- 萌备 -->
+        <a v-if="siteMoeIcp" :href="`https://icp.gov.moe/?keyword=${siteMoeIcp}`" target="_blank">
+            &amp;
+            萌备ICP{{ siteMoeIcp }}号
+            </a>
         <!-- 站点备案 -->
         <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           &amp;
@@ -48,6 +53,7 @@ const fullYear = new Date().getFullYear();
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
+const siteMoeIcp = ref(import.meta.env.VITE_SITE_MOE_ICP);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
