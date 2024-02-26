@@ -69,7 +69,7 @@ const siteIcon = {
   Cloud,
   CompactDisc,
   Compass,
-  Book,
+  Steam,
   Fire,
   LaptopCode,
   Heartbeat
