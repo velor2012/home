@@ -2,7 +2,7 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://www.cwy666.com/"
+    "link": "https://blog.cwy666.com/"
   },
   {
     "icon": "Cloud",
@@ -27,6 +27,6 @@
   {
     "icon": "Heartbeat",
     "name": "站点",
-    "link": "https://velor2012.gitee.io/probe"
+    "link": "https://watch.cwy666.com/"
   }
 ]
