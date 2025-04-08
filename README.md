@@ -7,7 +7,7 @@
 
 ![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
 
->主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Other/Pacifico-Regular.ttf)
+>主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Other/Pacifico-Regular.ttf)，若无法下载，可将字体目录下的 `Pacifico-Regular-all.ttf` 进行替换
 
 ### Demo
 
@@ -207,7 +207,7 @@ if (type == 0) {
 * [高德开放平台](https://lbs.amap.com/)
 * [Hitokoto 一言](https://hitokoto.cn/)
 * [MetingAPI By 武恩赐](https://api.wuenci.com/meting/api/)
-* 
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=imsyy/home&type=Date)](https://star-history.com/#imsyy/home&Date)

@@ -4,7 +4,7 @@
     <!-- Logo -->
     <div class="logo">
       <img class="logo-img" :src="siteLogo" alt="logo" />
-      <div class="name text-hidden">
+      <div :class="{ name: true, 'text-hidden': true, long: siteUrl[0].length >= 6 }">
         <span class="bg">{{ siteUrl[0] }}</span>
         <span class="sm">.{{ siteUrl[1] }}</span>
       </div>
@@ -92,14 +92,14 @@ watch(
     flex-direction: row;
     align-items: center;
     animation: fade 0.5s;
+    max-width: 460px;
     .logo-img {
       border-radius: 50%;
       width: 120px;
     }
     .name {
       width: 100%;
-      height: 142px;
-      margin-left: 12px;
+      padding-left: 22px;
       transform: translateY(-8px);
       font-family: "Pacifico-Regular";
 
@@ -125,6 +125,10 @@ watch(
           font-size: 4.5rem;
         }
       }
+    }
+
+    @media (max-width: 720px) {
+      max-width: 100%;
     }
   }
 
