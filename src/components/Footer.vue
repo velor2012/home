@@ -71,7 +71,7 @@ const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteMoeIcp = ref(import.meta.env.VITE_SITE_MOE_ICP);
 const siteGABeiAnText = ref(import.meta.env.VITE_SITE_GA_BEIAN_TEXT);
 const siteGABeiAnCode = ref(import.meta.env.VITE_SITE_GA_BEIAN_CODE);
-const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+const siteAnthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
   if (!url) return "https://www.imsyy.top";
