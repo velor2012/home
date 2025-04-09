@@ -14,15 +14,15 @@
           <a :href="siteUrl">{{ siteAuthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
-        <span class="hidden">
+        <!-- <span class="hidden">
           &amp;&nbsp;Made&nbsp;by
           <a :href="config.github" target="_blank">
             {{ config.author }}
           </a>
-        </span>
+        </span> -->
         <!-- 萌备 -->
+        &amp;
         <a v-if="siteMoeIcp" :href="`https://icp.gov.moe/?keyword=${siteMoeIcp}`" target="_blank">
-            &amp;
             萌备ICP{{ siteMoeIcp }}号
             </a>
         <!-- 站点备案 -->
@@ -31,6 +31,13 @@
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
             {{ siteIcp }}
           </a>
+        </span>
+        <span>
+            &amp;
+            <a :href="`https://beian.mps.gov.cn/#/query/webSearch?code=${siteGABeiAnCode}`" target="_blank" rel="noreferrer">
+                <img src="https://qcloudimg.tencent-cloud.cn/raw/eed02831a0e201b8d794c8282c40cf2e.png" style="width: 14px; margin-right: 5px;">
+                {{ siteGABeiAnText }}
+            </a>  
         </span>
       </div>
       <div v-else class="lrc">
@@ -62,6 +69,8 @@ const startYear = ref(
 );
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteMoeIcp = ref(import.meta.env.VITE_SITE_MOE_ICP);
+const siteGABeiAnText = ref(import.meta.env.VITE_SITE_GA_BEIAN_TEXT);
+const siteGABeiAnCode = ref(import.meta.env.VITE_SITE_GA_BEIAN_CODE);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
@@ -85,6 +94,7 @@ const siteUrl = computed(() => {
   text-align: center;
   z-index: 0;
   font-size: 14px;
+  overflow-x: scroll;
   // 文字不换行
   word-break: keep-all;
   white-space: nowrap;
